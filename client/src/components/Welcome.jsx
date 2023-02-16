@@ -12,9 +12,9 @@ const Welcome = () => {
 
     }
     return (
-        <div className="flex w-full justify-left item-center">
-            <div className="flex lg:flex-row flex-col items-start justify-between lg:p-20 py-12 px-4">
-                <div className="flex flex-1 justify-start flex-col lg:mr-10">
+        <div className="flex w-full justify-center item-center">
+            <div className="flex lg:flex-row flex-col items-start justify-between md:p-20 py-12 px-10">
+                <div className="flex flex-1 justify-start flex-col lg:mr-20 px-20">
                     <h1 className="text-white text-5xl left-align-text">
                         "Prokeii"
                         <span className="text-gradient_google text-5xl">   BrainStorm Lab</span>
@@ -52,7 +52,7 @@ const Welcome = () => {
                     </div>
                 </div>
                 <div className="flex flex-col flex-1 items-center justify-start w-full md:mt-0 mt-10">
-                    <div className="p-3 justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 ∑ white-glassmorphism">
+                    <div className="p-3 justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card white-glassmorphism">
                         <div className="flex justify-between flex-col w-full h-full">
                             <div className="flex justify-between items-start">
                                 <div className="w-10 h-10 rounded-full border-2 border-white flex justify-center items-center">
