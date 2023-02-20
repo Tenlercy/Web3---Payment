@@ -13,7 +13,7 @@ const Input = ({placeholder, name, type, value, handleChange}) => (
         step="0.0001"
         value = {value}
         onChange={(e) => handleChange(e, name)}
-        className = "my-2 w-full rounded-sm outline-none focus:bg-gray-600 text-white border-none text-sm white-glassmorphism"
+        className = "my-2 w-full rounded-sm p-2 outline-none bg-transparent text-white focus:bg-gray-800 border-none text-sm white-glassmorphism"
     />
 );
 
