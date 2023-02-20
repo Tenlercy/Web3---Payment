@@ -16,9 +16,9 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
-        <nav className = "w-full flex xl:justify-center 2xl:justify-center lg:justify-center items-center lg:px-10 sm:justify-around">
-            <div className="md:flex-[0.5] flex-intial justify-between items-center mt-10">
-                <img src={logo} alt="logo" className="w-36 cursor-pointer"/>
+        <nav className = "w-full flex xl:justify-betweetn 2xl:justify-cente lg:justify-center items-center lg:pl-16 sm:justify-end">
+            <div className="2xl:flex-[0.4] md:flex-[0.5] flex-intial justify-center items-center mt-10">
+                <img src={logo} alt="logo" className="w-48 cursor-pointer "/>
             </div>
             <div className="flex relative">
                 <ul className = "text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
